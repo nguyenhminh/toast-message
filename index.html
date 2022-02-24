@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Message</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div id="toast"></div>
+
+    <div class="row">
+        <div onclick="showSuccessToast();" class="btn btn--success col-sm-12 col-md-6">Show success toast</div>
+        <div onclick="showInfoToast();" class="btn btn--info col-sm-12 col-md-6">Show info toast</div>
+        <div onclick="showWarningToast();" class="btn btn--warn col-sm-12 col-md-6">Show warning toast</div>
+        <div onclick="showErrorToast();" class="btn btn--danger col-sm-12 col-md-6">Show error toast</div>
+    </div>
+
+</body>
+
+</html>
